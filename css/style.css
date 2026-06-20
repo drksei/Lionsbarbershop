@@ -37,7 +37,7 @@ body{
     background-color: #000;
 }
 ::-webkit-scrollbar-button{
-    background-color: #fff;
+    background-color: #000000;
 }
 ::-webkit-scrollbar-track{
     background-color: #000;
@@ -269,8 +269,6 @@ nav{
     color: inherit;
 }
 
-
-
 .btn_sign-up{
     font-size: 18px;
     line-height: normal;
@@ -278,7 +276,6 @@ nav{
     position: absolute;
     z-index: 1;
     top: 100%;
-    /*right: 0;*/
 
     overflow: hidden;
 
@@ -1237,3 +1234,7 @@ footer {
 
     opacity: 1;
 }
+html {
+    scroll-behavior: smooth;
+}
+
